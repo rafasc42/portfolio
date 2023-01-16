@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Rafael's portfolio</title>
-		<link rel="stylesheet" href="./css/style.css">
-	</head>
-	<body>
-		<header>
-			<img src="./img/">
-			<h1>Rafael Borges Da Silva Carvalho<h1>
-			<p>Cursando: Eng. Da Computação<p/>
-		</header>
-
-		<main>
-			<h1>Home Page</h1>
-		</main>
-	</body>
+  <head>
+    <title>My Web Development Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Hi, I'm [Your Name]</h1>
+      <p>Web Developer</p>
+    </header>
+    <section id="about">
+      <h2>About</h2>
+      <p>Here you can put some information about yourself, such as your background and experience in web development, your passions and hobbies, or anything else you want to share.</p>
+    </section>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <ul>
+        <li>
+          <h3>Project 1</h3>
+          <img src="project1.jpg" alt="Project 1 Screenshot">
+          <p>Brief description of project 1</p>
+          <a href="project1.html">View project</a>
+        </li>
+        <li>
+          <h3>Project 2</h3>
+          <img src="project2.jpg" alt="Project 2 Screenshot">
+          <p>Brief description of project 2</p>
+          <a href="project2.html">View project</a>
+        </li>
+        <!-- add more projects here -->
+      </ul>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <!-- add more skills here -->
+      </ul>
+    </section>
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <ul>
+        <li>
+          <p>"[Your Name] is a fantastic web developer. They delivered the project on time and exceeded my expectations."</p>
+          <p>- Client 1</p>
+        </li>
+        <li>
+<p>"I had the pleasure of working with [Your Name] on a web development project. Their attention to detail and problem-solving skills were impressive."</p>
+          <p>- Colleague 1</p>
+        </li>
+        <!-- add more testimonials here -->
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <input type="submit" value="Send">
+      </form>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>Phone: 555-555-5555</p>
+      <p>Social Media: 
+        <a href="https://github.com/yourusername">Github</a>
+        <a href="https://www.linkedin.com/in/yourusername/">LinkedIn</a>
+        <a href="https://twitter.com/yourusername">Twitter</a>
+      </p>
+    </section>
+    <footer>
+      <p>Copyright &copy; [Your Name] [Current Year]</p>
+    </footer>
+  </body>
 </html>
+
